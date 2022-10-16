@@ -36,10 +36,6 @@ class Utilidades {
         fun textoVerde(texto: String) {
             println("\u001B[32;1m${texto}\u001B[0m")
         }
-
-        fun textoInformativo(texto: String) {
-            println("\u001b[33;1m${texto}\u001b[0m")
-        }
     }
 
 }
